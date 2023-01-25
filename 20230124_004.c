@@ -25,7 +25,9 @@ int main () {
     }
 
     for(i = 0; i < tamanho; i++) {
-        printf("%d ", v[i]);
+        if (v[i] != 0) {
+            printf("%d ", v[i]);
+        }
     }
     return 0;
 }
